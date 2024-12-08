@@ -14,6 +14,7 @@
 		202E2C502D014CDC006CB55A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E2C4F2D014CDC006CB55A /* HomeView.swift */; };
 		202E2C522D014E6F006CB55A /* HistoricDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E2C512D014E6F006CB55A /* HistoricDataView.swift */; };
 		202E2C542D053937006CB55A /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E2C532D053937006CB55A /* ProgressCircleView.swift */; };
+		202E2C562D056BB4006CB55A /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E2C552D056BB4006CB55A /* ActivityCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		202E2C4F2D014CDC006CB55A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		202E2C512D014E6F006CB55A /* HistoricDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricDataView.swift; sourceTree = "<group>"; };
 		202E2C532D053937006CB55A /* ProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
+		202E2C552D056BB4006CB55A /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				202E2C4F2D014CDC006CB55A /* HomeView.swift */,
 				202E2C512D014E6F006CB55A /* HistoricDataView.swift */,
 				202E2C532D053937006CB55A /* ProgressCircleView.swift */,
+				202E2C552D056BB4006CB55A /* ActivityCard.swift */,
 			);
 			path = Fitnessapp;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				202E2C502D014CDC006CB55A /* HomeView.swift in Sources */,
 				202E2C522D014E6F006CB55A /* HistoricDataView.swift in Sources */,
 				202E2C3F2D009DA2006CB55A /* ContentView.swift in Sources */,
+				202E2C562D056BB4006CB55A /* ActivityCard.swift in Sources */,
 				202E2C3D2D009DA2006CB55A /* FitnessappApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
