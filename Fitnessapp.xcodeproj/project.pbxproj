@@ -16,6 +16,9 @@
 		202E2C542D053937006CB55A /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E2C532D053937006CB55A /* ProgressCircleView.swift */; };
 		202E2C562D056BB4006CB55A /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E2C552D056BB4006CB55A /* ActivityCard.swift */; };
 		202E2C582D059DA9006CB55A /* WorkoutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E2C572D059DA9006CB55A /* WorkoutCard.swift */; };
+		202E2C5D2D0709E9006CB55A /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E2C5C2D0709E9006CB55A /* Activity.swift */; };
+		202E2C5F2D070A45006CB55A /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E2C5E2D070A45006CB55A /* Workout.swift */; };
+		202E2C612D070A98006CB55A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E2C602D070A98006CB55A /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		202E2C532D053937006CB55A /* ProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
 		202E2C552D056BB4006CB55A /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
 		202E2C572D059DA9006CB55A /* WorkoutCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCard.swift; sourceTree = "<group>"; };
+		202E2C5C2D0709E9006CB55A /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		202E2C5E2D070A45006CB55A /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		202E2C602D070A98006CB55A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,16 +67,13 @@
 		202E2C3B2D009DA2006CB55A /* Fitnessapp */ = {
 			isa = PBXGroup;
 			children = (
+				202E2C5B2D07090E006CB55A /* ViewModels */,
+				202E2C5A2D070906006CB55A /* Models */,
+				202E2C592D0708FB006CB55A /* Views */,
 				202E2C3C2D009DA2006CB55A /* FitnessappApp.swift */,
 				202E2C3E2D009DA2006CB55A /* ContentView.swift */,
 				202E2C402D009DA4006CB55A /* Assets.xcassets */,
 				202E2C422D009DA4006CB55A /* Preview Content */,
-				202E2C4A2D014B4C006CB55A /* FitnessTabView.swift */,
-				202E2C4F2D014CDC006CB55A /* HomeView.swift */,
-				202E2C512D014E6F006CB55A /* HistoricDataView.swift */,
-				202E2C532D053937006CB55A /* ProgressCircleView.swift */,
-				202E2C552D056BB4006CB55A /* ActivityCard.swift */,
-				202E2C572D059DA9006CB55A /* WorkoutCard.swift */,
 			);
 			path = Fitnessapp;
 			sourceTree = "<group>";
@@ -80,6 +83,36 @@
 			children = (
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		202E2C592D0708FB006CB55A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				202E2C4A2D014B4C006CB55A /* FitnessTabView.swift */,
+				202E2C4F2D014CDC006CB55A /* HomeView.swift */,
+				202E2C552D056BB4006CB55A /* ActivityCard.swift */,
+				202E2C572D059DA9006CB55A /* WorkoutCard.swift */,
+				202E2C512D014E6F006CB55A /* HistoricDataView.swift */,
+				202E2C532D053937006CB55A /* ProgressCircleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		202E2C5A2D070906006CB55A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				202E2C5C2D0709E9006CB55A /* Activity.swift */,
+				202E2C5E2D070A45006CB55A /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		202E2C5B2D07090E006CB55A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				202E2C602D070A98006CB55A /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,11 +185,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				202E2C4B2D014B4C006CB55A /* FitnessTabView.swift in Sources */,
+				202E2C612D070A98006CB55A /* HomeViewModel.swift in Sources */,
 				202E2C582D059DA9006CB55A /* WorkoutCard.swift in Sources */,
 				202E2C542D053937006CB55A /* ProgressCircleView.swift in Sources */,
+				202E2C5F2D070A45006CB55A /* Workout.swift in Sources */,
 				202E2C502D014CDC006CB55A /* HomeView.swift in Sources */,
 				202E2C522D014E6F006CB55A /* HistoricDataView.swift in Sources */,
 				202E2C3F2D009DA2006CB55A /* ContentView.swift in Sources */,
+				202E2C5D2D0709E9006CB55A /* Activity.swift in Sources */,
 				202E2C562D056BB4006CB55A /* ActivityCard.swift in Sources */,
 				202E2C3D2D009DA2006CB55A /* FitnessappApp.swift in Sources */,
 			);
